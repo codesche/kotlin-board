@@ -13,7 +13,7 @@ Kotlin과 Spring Boot를 활용한 **게시판(Board) 시스템**으로, 테스�
 
 ### Backend
 - **Language**: Kotlin 1.9.25
-- **Framework**: Spring Boot 3.5.6
+- **Framework**: Spring Boot 3.4.0
 - **Build Tool**: Gradle (Kotlin DSL)
 - **Java Version**: 17
 
