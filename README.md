@@ -99,7 +99,7 @@ src/main/kotlin/com/example/board/
 - [ ] 시큐어 코딩 수준 고려
 
 ### Database & JPA
-- [ ] BaseTimeEntity (Instant 사용)
+- [x] BaseTimeEntity (Instant 사용)
 - [ ] JPA N+1 문제 방지 (LAZY + fetch join)
 - [ ] @Transactional (readOnly=true for 조회)
 - [ ] Dirty Checking 활용
