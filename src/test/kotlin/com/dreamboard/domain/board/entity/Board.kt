@@ -1,8 +1,8 @@
-package com.dreamboard.domain.board
+package com.dreamboard.domain.board.entity
 
 import com.dreamboard.config.BaseTimeEntity
-import com.dreamboard.domain.comment.Comment
-import com.dreamboard.domain.user.User
+import com.dreamboard.domain.comment.entity.Comment
+import com.dreamboard.domain.user.entity.User
 import jakarta.persistence.CascadeType
 import jakarta.persistence.Column
 import jakarta.persistence.ConstraintMode

@@ -1,9 +1,9 @@
-package com.dreamboard.domain.user
+package com.dreamboard.domain.user.entity
 
 import com.dreamboard.common.UserRole
 import com.dreamboard.config.BaseTimeEntity
-import com.dreamboard.domain.board.Board
-import com.dreamboard.domain.comment.Comment
+import com.dreamboard.domain.board.entity.Board
+import com.dreamboard.domain.comment.entity.Comment
 import jakarta.persistence.CascadeType
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

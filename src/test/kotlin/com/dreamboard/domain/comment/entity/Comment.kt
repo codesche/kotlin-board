@@ -1,8 +1,8 @@
-package com.dreamboard.domain.comment
+package com.dreamboard.domain.comment.entity
 
 import com.dreamboard.config.BaseTimeEntity
-import com.dreamboard.domain.board.Board
-import com.dreamboard.domain.user.User
+import com.dreamboard.domain.board.entity.Board
+import com.dreamboard.domain.user.entity.User
 import jakarta.persistence.Column
 import jakarta.persistence.ConstraintMode
 import jakarta.persistence.Entity
@@ -15,7 +15,6 @@ import jakarta.persistence.Index
 import jakarta.persistence.JoinColumn
 import jakarta.persistence.ManyToOne
 import jakarta.persistence.Table
-import kotlin.math.PI
 
 /**
  * 댓글 엔티티
